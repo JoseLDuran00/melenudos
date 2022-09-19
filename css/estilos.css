@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #68A7AD;
+    padding: 1%;
 }
 
 .logo{
@@ -14,6 +15,35 @@ body{
 }
 
 .color-nav{
-    background-color: antiquewhite;
+    background-color: #99C4C8;
 }
 
+.img_nav{
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.letra-nav{
+    color: #FBF2CF;
+    font-weight: 500;
+}
+
+.carousel-item{
+    padding: 1% 15%;
+  }
+ 
+  .titulo{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: #E5CB9F;
+
+    border:  1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+  }
+
+  .tips{
+    padding: 5% 5%;
+    justify-content: center;
+    }
