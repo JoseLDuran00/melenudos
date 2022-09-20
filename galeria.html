@@ -1,59 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-<link rel="stylesheet" href="./css/estilos.css">
-    <title> Galeria de razas</title>
-</head>
-<body>
-    <header >
-        <nav class="navbar navbar-expand-lg color-nav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img  class="logo" src="./img/logo2.png" alt=""></a>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Galeria de razas</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg color-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./img/logo2.png" alt=""
+          /></a>
 
-              <h1 class="row titulo-nav">
-                melenudos
-              </h1>
+          <h1 class="row titulo-nav">Melenudos</h1>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-             
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active letra-nav" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letra-nav" href="galeria.html">Galeria</a>
-                  </li>
-                 
-                </ul>
-              </div>
-              
-            </div>
-          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active letra-nav"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link letra-nav" href="galeria.html">Galeria</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <div class="row fs-3 galeria-titulo" id="titulo-galeria">
+        <p>A continuación te presentamos algunas razas de conejos.</p>
+      </div>
 
+      <div class="row galeria">
+        <!-- arlequin -->
+        <h3 class="galeria-subtitulo">Conejo Arlequin.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/arlequin.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El origen del conejo arlequín se sitúa en Francia y, aunque no se
+              sabe con exactitud el año de su aparición, se sospecha que fue
+              durante la década de 1880.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/arlequin_760_0_600.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Lo más característico de esta raza de conejo es el patrón de
+              color, o más bien los patrones de colores y marcas en este pelaje.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- ducht -->
+        <h3 class="galeria-subtitulo">Conejo Dutch.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-dutch.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El conejo Dutch o conejo enano holandés se caracteriza por la
+              franja blanca que divide su cuerpo en dos.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-dutch-2.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Es una mascota ideal, especialmente para las familias con niños,
+              tanto por su aspecto adorable y su carácter dócil y cariñoso como
+              por la sencillez de los cuidados que requiere.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- lion head -->
+        <h3 class="galeria-subtitulo">Conejo Cabeza de León.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/Conejo-Cabeza-de-Leon-.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El conejo lionhead o cabeza de león se diferencia muy bien de los
+              demás por su característico pelo largo y bufado en la cabeza.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/Conejo-Cabeza-de-Leon-2-.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              La única parte de su cuerpo que tiene el pelo largo es la cabeza,
+              en el resto del cuerpo es más corto pero también muy denso. El
+              pelo no es igual en todos los conejos de la raza,.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- orejas caidas -->
+        <h3 class="galeria-subtitulo">Conejo Belier u Orejas Caidas.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-en-el-jardin.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El Belier holandés es también conocido como Holland Lop, proviene
+              de los Países Bajos y es uno de los conejitos más populares como
+              mascotas..
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/orejas-caidas-2.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El conejo Belier o Lop original surge en el siglo XVIII tras el
+              cruce de diversos conejos ingleses de granja. Todas sus variedades
+              se caracterizan, además de por tener las orejas caídas, por ser
+              divertidas y cariñosas..
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- gigante -->
+        <h3 class="galeria-subtitulo">Conejo Gigante de Flandes.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-gigante-flandes-670x444.webp"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Como su propio nombre indica, este conejo destaca por sus grandes
+              dimensiones. Y es que su peso oscila entre los 6 y los 10 kilos.
+              No obstante, hay algunas razas que llegan a los 18 kilos.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/Rabbit-Cocoa-Puff-i-700x420.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Este animal destaca por su considerable tamaño teniendo en cuenta
+              que, de media, los demás tipos de conejos no suelen superar los
+              cuatro kilos. Por ello, el Gigante de Flandes se le conoce por ser
+              el conejo más grande del mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- miniloop -->
+        <h3 class="galeria-subtitulo">Conejo Belier o Mini lop.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/mini-loop.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Este pequeño conejito destaca por sus orejas, pues estás, lejos de
+              ser como las de otras razas, cuelgan caídas a los lados de su
+              cabeza. Son considerados como la variedad miniatura del conejo
+              belier.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/mini-loop-2.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Los mini lop tienen un carácter benigno y una imagen realmente
+              tierna y adorable, por lo que se han convertido en una de las
+              razas más apreciadas por los amantes de los conejos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- rex -->
+        <h3 class="galeria-subtitulo">Conejo Rex.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-Rex-de-color-gris.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El conejo Rex puede ser blanco, negro, marrón, con o sin manchas y
+              con un suave pelaje en cualquier caso.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img class="card-img-top" src="./img/rex.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              Si hablamos de su carácter, destaca por ser un animal muy
+              sociable, agradable, inteligente y muy activo. Estos conejos son
+              realmente cariñosos y adoran estar con sus dueños, que los mimen y
+              jueguen con ellos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- california -->
+        <h3 class="galeria-subtitulo">Conejo Californiano.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/conejo-californiano_684_0_orig.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              El rasgo más característico de los conejos californianos es el
+              color del pelaje, que consiste en la base blanca con pigmentación
+              de color negro en su nariz, su cola, en sus pies y orejas..
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/Conejos-californianos-bebes.jpg.webp"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Una interesante curiosidad sobre el metabolismo del conejo
+              californiano, es que la pigmentación de su pelaje puede reaccionar
+              de diferentes maneras según el clima del lugar donde residen.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <!-- habana -->
+        <h3 class="galeria-subtitulo">Conejo Habana.</h3>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/habana.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Aunque parezca mentira, este gracioso conejito recibe el nombre de
+              habana por su parecido a los cigarros cubanos de la Ciudad de la
+              Habana. No obstante, hay que remarcar que su origen es europeo,
+              concretamente en Holanda.
+            </p>
+          </div>
+        </div>
+        <div class="card tarjeta" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/habana-1.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Es un conejo que no necesita demasiados cuidados, así que es
+              perfecto para tenerlo con niños. Además, a este precioso conejito
+              le gustan mucho las caricias y los mimos.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div>
-          <p ></p>
-          <button type="button" class="btn btn-info"><a href="#">Back to top</a></button>
-        </div>
-      </footer>
- 
+      <div>
+        <p></p>
+        <button type="button" class="btn btn-info">
+          <a href="#titulo-galeria">Back to top</a>
+        </button>
+      </div>
+    </footer>
+
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

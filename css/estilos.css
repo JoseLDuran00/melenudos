@@ -1,100 +1,122 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #68A7AD;
-    padding: 1%;
+body {
+  background-color: #68A7AD;
+  padding: 1%;
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
+.logo {
+  width: 80px;
+  height: 80px;
 }
 
-.color-nav{
-    background-color: #99C4C8;
+.color-nav {
+  background-color: #99C4C8;
 }
 
-.img_nav{
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+.img_nav {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.letra-nav{
-    color: #FBF2CF;
-    font-weight: 500;
+.letra-nav {
+  color: #FBF2CF;
+  font-weight: 500;
 }
 
-.titulo-nav{
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    color: #E5CB9F;
+.titulo-nav {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  color: #E5CB9F;
 }
 
-.carousel-item{
-    padding: 1% 15%;
-  }
- 
-  .titulo{
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    color: #E5CB9F;
-
-    border:  1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
-  }
-
-  .tips{
-    padding: 5% 5%;
-    justify-content: center;
-    }
-
-.tips h2{
-    color: #F5EDDC;
-}
-.tips p{
-    color: #FDEEDC;
+.carousel-item {
+  padding: 1% 15%;
 }
 
-.titulo-h2{
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    color: #E5CB9F;
-
-    border:  1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  color: #E5CB9F;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.caracteriticas{
-    padding: 1% 2%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.tips {
+  padding: 5% 5%;
+  justify-content: center;
 }
 
-.caracteriticas h2{
-    color: #E5CB9F;
+.tips h2 {
+  color: #F5EDDC;
 }
 
-.caracteriticas p{
-    color: #FDEEDC;
+.tips p {
+  color: #FDEEDC;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
+.titulo-h2 {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  color: #E5CB9F;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-footer a{
-    text-decoration: none;
-    color: #FDEEDC; ;
+.caracteriticas {
+  padding: 1% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caracteriticas h2 {
+  color: #E5CB9F;
+}
+
+.caracteriticas p {
+  color: #FDEEDC;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FDEEDC;
+}
+
+.galeria {
+  padding: 4%;
+  justify-content: center;
+}
+
+.galeria-titulo {
+  display: flex;
+  text-align: center;
+  padding: 2%;
+  text-shadow: 0px 1px #E1FFEE;
+  color: #A5F1E9;
+}
+
+.galeria-subtitulo {
+  color: #E5CB9F;
+  text-shadow: 0px 1px #EEE4AB;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta {
+  margin: 2%;
 }

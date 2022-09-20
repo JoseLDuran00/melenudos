@@ -1,150 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-<link rel="stylesheet" href="./css/estilos.css">
-    <title> Melenudos </title>
-</head>
-<body>
-    <header >
-        <nav class="navbar navbar-expand-lg color-nav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img  class="logo" src="./img/logo2.png" alt=""></a>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Melenudos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg color-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./img/logo2.png" alt=""
+          /></a>
 
-              <h1 class="row titulo-nav">
-                melenudos
-              </h1>
+          <h1 class="row titulo-nav">Melenudos</h1>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-             
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active letra-nav" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link letra-nav" href="galeria.html">Galeria</a>
-                  </li>
-                 
-                </ul>
-              </div>
-              
-            </div>
-          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active letra-nav"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link letra-nav" href="galeria.html">Galeria</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner ">
-              <div class="carousel-item active" >
-                <img src="./img/conejos-hierba.jpg" class="d-block w-100 img_nav" alt="Conejo_img_1">
-                
-              </div>
-              <div class="carousel-item ">
-                <img src="./img/rex.jpg" class="d-block w-100 img_nav" alt="Conejo_img_2">
-                
-              </div>
-              <div class="carousel-item">
-                <img src="./img/habana-1.jpg" class="d-block w-100 img_nav" alt="Conejo_img_2">
-                
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/conejos-hierba.jpg"
+              class="d-block w-100 img_nav"
+              alt="Conejo_img_1"
+            />
           </div>
-
-          <div class="titulo">
-            <h1>
-              Los conejos, nuestros mejores amigos !!
-            </h1>
+          <div class="carousel-item">
+            <img
+              src="./img/rex.jpg"
+              class="d-block w-100 img_nav"
+              alt="Conejo_img_2"
+            />
           </div>
-            <div class="row tips">
-              <div class="col-lg-3 text-center">
-                <img class="rounded-circle img_nav" src="./img/pelaje.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Su pelaje</h2>
-                <p>Los conejos se caracterizan por tener el cuerpo cubierto por un pelo muy lanudo, con un pelaje suave y espeso.</p>
-                
-              </div>
-              <div class="col-lg-3 text-center">
-                <img class="rounded-circle img_nav" src="./img/orejasconejo.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>Sus orejas</h2>
-                <p>Las orejas miden en torno a los 7 cm. y les ayuda a regular la temperatura habitual de su cuerpo. Además, todas las variedades tienen una cola muy corta.</p>
-                
-              </div>
-              <div class="col-lg-3 text-center">
-                <a href="https://www.instagram.com/big_cocoa_puff/?hl=es" target="_blank">
-                  <img class="rounded-circle img_nav" src="./img/cocoapuf.jpg" alt="Generic placeholder image" width="140" height="140">
-                 </a>
-                
-                <h2>Su peso</h2>
-                <p>En cuanto al peso, depende completamente de la raza, hay algunas que apenas se desarrollan más allá del kilo, mientras que otras pueden alcanzar los 8 kg. en edades adultas.</p>
-               
-              </div>
-            </div>
-            <div class="titulo">
-              <h2>
-                Caracteristicas de nuestros amigos !!
-              </h2>
-            </div>
+          <div class="carousel-item">
+            <img
+              src="./img/habana-1.jpg"
+              class="d-block w-100 img_nav"
+              alt="Conejo_img_2"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-            <div class="row caracteriticas">
-              <div class="col-md-7 col-sm-5">
-                
-                <p class="lead">El conejo doméstico pertenece a la especie Oryctolagus cuniculus, también conocida como conejo europeo, y representa uno de los animales domesticados más populares como mascotas.</p>
-                <p>
-                  El conejo presenta características morfológicas que varían según la raza, sobre todo en cuanto a su tamaño, coloración y patrones en el pelaje.
-                </p>
-                <p>
-                  Los conejos suelen pesar entre 1,5 y casi 3 kg. Sin embargo, algunas razas de conejo doméstico, pueden llegar a pesar alrededor de 8 kg. En esta especie, el pelaje consiste en una capa lanuda y espesa de pelo cobertor, con colores pardos o grises en las variedades silvestres, y una amplia gama de patrones de coloración en las razas domésticas. La cabeza tiene una forma ligeramente elíptica, siendo más ancha en los individuos machos. Las orejas son alargadas y erectas, llegando a medir en promedio 7 cm en los ejemplares silvestres.
-                </p>
-              </div>
-              <div class="col-md-5 col-sm-5">
-                <img class="featurette-image img-fluid mx-auto img_nav" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="./img/conejos-caracteristicas.jpg" data-holder-rendered="true">
-              </div>
-            </div>
+      <div class="titulo">
+        <h1>Los conejos, nuestros mejores amigos !!</h1>
+      </div>
+      <div class="row tips">
+        <div class="col-lg-3 text-center">
+          <img
+            class="rounded-circle img_nav"
+            src="./img/pelaje.jpg"
+            alt="Generic placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2>Su pelaje</h2>
+          <p>
+            Los conejos se caracterizan por tener el cuerpo cubierto por un pelo
+            muy lanudo, con un pelaje suave y espeso.
+          </p>
+        </div>
+        <div class="col-lg-3 text-center">
+          <img
+            class="rounded-circle img_nav"
+            src="./img/orejasconejo.jpg"
+            alt="Generic placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2>Sus orejas</h2>
+          <p>
+            Las orejas miden en torno a los 7 cm. y les ayuda a regular la
+            temperatura habitual de su cuerpo. Además, todas las variedades
+            tienen una cola muy corta.
+          </p>
+        </div>
+        <div class="col-lg-3 text-center">
+          <a
+            href="https://www.instagram.com/big_cocoa_puff/?hl=es"
+            target="_blank"
+          >
+            <img
+              class="rounded-circle img_nav"
+              src="./img/cocoapuf.jpg"
+              alt="Generic placeholder image"
+              width="140"
+              height="140"
+            />
+          </a>
 
-            <div class="row caracteriticas">
-              <div class="col-md-5 col-sm-5 order-md-2">
-                <h2 class="featurette-heading">Tipo de alimentación </h2>
-                <p class="lead">En general, se han descrito tres tipos de comportamientos alimenticios en esta especie.</p>
-                <p>El primero es el comportamiento de alimentación casual, que consiste en el mordisqueo e ingestión ociosa de plantas, en un estado de relajación bajo el sol, cerca de la entrada de sus refugios</p>
-                <p>El segundo tipo de alimentación, la alimentación normal, consiste en una acción de pastar, en la cual los conejos se inclinan hacia el suelo para arrancar la vegetación, moviéndose lentamente y elevando su cabeza con frecuencia, en busca de posibles peligros.</p>
-                <p>El tercer tipo de alimentación de estos conejos y, a diferencia de la alimentación normal, los individuos no se detienen a elevar la cabeza, sino que se alimentan de forma rápida y sin seleccionar el alimento. Esto se relaciona con la necesidad de alimentarse rápidamente, generalmente antes de una tormenta.</p>
-              </div>
-              <div class="col-md-6 col-sm-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto img_nav" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="./img/conejo-comiendo.jpg" data-holder-rendered="true">
-              </div>
-            </div>
+          <h2>Su peso</h2>
+          <p>
+            En cuanto al peso, depende completamente de la raza, hay algunas que
+            apenas se desarrollan más allá del kilo, mientras que otras pueden
+            alcanzar los 8 kg. en edades adultas.
+          </p>
+        </div>
+      </div>
+      <div class="titulo">
+        <h2>Caracteristicas de nuestros amigos !!</h2>
+      </div>
+
+      <div class="row caracteriticas">
+        <div class="col-md-7 col-sm-5">
+          <p class="lead">
+            El conejo doméstico pertenece a la especie Oryctolagus cuniculus,
+            también conocida como conejo europeo, y representa uno de los
+            animales domesticados más populares como mascotas.
+          </p>
+          <p>
+            El conejo presenta características morfológicas que varían según la
+            raza, sobre todo en cuanto a su tamaño, coloración y patrones en el
+            pelaje.
+          </p>
+          <p>
+            Los conejos suelen pesar entre 1,5 y casi 3 kg. Sin embargo, algunas
+            razas de conejo doméstico, pueden llegar a pesar alrededor de 8 kg.
+            En esta especie, el pelaje consiste en una capa lanuda y espesa de
+            pelo cobertor, con colores pardos o grises en las variedades
+            silvestres, y una amplia gama de patrones de coloración en las razas
+            domésticas. La cabeza tiene una forma ligeramente elíptica, siendo
+            más ancha en los individuos machos. Las orejas son alargadas y
+            erectas, llegando a medir en promedio 7 cm en los ejemplares
+            silvestres.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-5">
+          <img
+            class="featurette-image img-fluid mx-auto img_nav"
+            data-src="holder.js/500x500/auto"
+            alt="500x500"
+            style="width: 500px; height: 400px"
+            src="./img/conejos-caracteristicas.jpg"
+            data-holder-rendered="true"
+          />
+        </div>
+      </div>
+
+      <div class="row caracteriticas">
+        <div class="col-md-5 col-sm-5 order-md-2">
+          <h2 class="featurette-heading">Tipo de alimentación</h2>
+          <p class="lead">
+            En general, se han descrito tres tipos de comportamientos
+            alimenticios en esta especie.
+          </p>
+          <p>
+            El primero es el comportamiento de alimentación casual, que consiste
+            en el mordisqueo e ingestión ociosa de plantas, en un estado de
+            relajación bajo el sol, cerca de la entrada de sus refugios
+          </p>
+          <p>
+            El segundo tipo de alimentación, la alimentación normal, consiste en
+            una acción de pastar, en la cual los conejos se inclinan hacia el
+            suelo para arrancar la vegetación, moviéndose lentamente y elevando
+            su cabeza con frecuencia, en busca de posibles peligros.
+          </p>
+          <p>
+            El tercer tipo de alimentación de estos conejos y, a diferencia de
+            la alimentación normal, los individuos no se detienen a elevar la
+            cabeza, sino que se alimentan de forma rápida y sin seleccionar el
+            alimento. Esto se relaciona con la necesidad de alimentarse
+            rápidamente, generalmente antes de una tormenta.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto img_nav"
+            data-src="holder.js/500x500/auto"
+            alt="500x500"
+            style="width: 500px; height: 400px"
+            src="./img/conejo-comiendo.jpg"
+            data-holder-rendered="true"
+          />
+        </div>
+      </div>
     </main>
-    <hr class="featurette-divider">
+    <hr class="featurette-divider" />
     <footer>
       <div>
-        <p ></p>
-        <button type="button" class="btn btn-info"><a href="#">Back to top</a></button>
+        <p></p>
+        <button type="button" class="btn btn-info">
+          <a href="#">Back to top</a>
+        </button>
       </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
