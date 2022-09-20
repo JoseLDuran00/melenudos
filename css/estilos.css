@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #68A7AD;
-  padding: 1%;
+  background-color: #18978F;
+   padding: 1%;
 }
 
 .logo {
@@ -15,7 +15,7 @@ body {
 }
 
 .color-nav {
-  background-color: #99C4C8;
+  background-color: #54BAB9;
 }
 
 .img_nav {
@@ -33,6 +33,7 @@ body {
   justify-content: center;
   padding: 2%;
   color: #E5CB9F;
+  text-shadow: 0px 1px #F5EDDC; ;
 }
 
 .carousel-item {
